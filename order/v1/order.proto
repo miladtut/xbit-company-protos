@@ -3,7 +3,7 @@ syntax = "proto3";
 package order.v1;
 
 // مهم لتوليد كود Go
-option go_package = "github.com/company/contracts/gen/go/order/v1;orderv1";
+option go_package = "github.com/miladtut/xbit-company-protos/gen/go/order/v1;orderv1";
 
 // =========================
 // Order Service
