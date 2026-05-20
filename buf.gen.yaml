@@ -1,0 +1,16 @@
+version: v1
+
+plugins:
+  # =========================
+  # Go Protobuf models
+  # =========================
+  - plugin: go
+    out: gen/go
+    opt: paths=source_relative
+
+  # =========================
+  # Go gRPC services
+  # =========================
+  - plugin: go-grpc
+    out: gen/go
+    opt: paths=source_relative
