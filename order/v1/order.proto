@@ -4,7 +4,7 @@ package order.v1;
 
 // مهم لتوليد كود Go
 option go_package = "github.com/miladtut/xbit-company-protos/gen/go/order/v1;orderv1";
-
+import "google/protobuf/timestamp.proto";
 // =========================
 // Order Service
 // =========================
@@ -33,6 +33,8 @@ message Order {
   int64 user_id = 2;
   string status = 3;
   double total_price = 4;
+  google.protobuf.Timestamp created_at = 5;
+  google.protobuf.Timestamp updated_at = 6;
 }
 
 // =========================

@@ -1,8 +1,8 @@
-version: v1
+version: v1  
 
 
 deps:
-  - buf.build/googleapis/googleapis
+  - buf.build/googleapis/googleapis #buf dep update
 
 lint:
   use:
